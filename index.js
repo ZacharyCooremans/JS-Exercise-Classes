@@ -101,6 +101,10 @@ class Airplane {
     }//end of drive
 
   }//end of car
+
+  const mustange = new Car('mustang', 15)
+  mustange.fill(30);
+  console.log(mustange.drive())
   
   /*
     TASK 3
